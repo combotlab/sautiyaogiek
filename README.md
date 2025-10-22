@@ -70,6 +70,8 @@ python query_data [insert_chat_here]
 ```
 5. Or through sms connection, choose number 9 on sms menu for generative response
 
+![RAG Chart](images/ogiek_graph.png)
+
 ### Production Deployment
 1. Verify you have completed the above steps to test on Simulator in sandbox mode and RAG module is working
 2. Make sure `AT_` and `LANG_ID` values are set in .env like below
