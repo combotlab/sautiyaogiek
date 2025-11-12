@@ -25,11 +25,10 @@ swahili_presets = {
 # handle preset responses
 def get_preset(option, lang):
     if lang == 1: # swahili
-        return swahili_presets.get(option, "Chaguo lisilo halali limechanguliwa.")
+        return swahili_presets.get(option, "Chaguo lisilo halali limechaguliwa.")
     else: # default engilsh
         return english_presets.get(option, "Invalid option selected.")
 
-# TODO handle error messages
 # error 0: invalid menu option
 def display_error(error, lang):
     if lang == 1: # swahili
@@ -43,7 +42,6 @@ def display_error(error, lang):
         else:
             return ""
 
-# TODO fix newline char issue, currently talking with AT support regarding this (maybe simulator doesnt support?), 5/8 update: still no help from support so far
 # handle displaying menu
 def display_menu(lang):
     if lang == 1: # swahili
